@@ -5,7 +5,8 @@ Introductory presentation on using scikit learn in Jupyter
 
 All you need to do is install the scipy stack!
 
-Follow the pip installation instructions [here](https://www.scipy.org/install.html)
+Follow the pip installation instructions [here](https://www.scipy.org/install.html).
+
 If you don't like reading, run the `pip install --user ...` command found halfway down the page.
 If that doesn't work, go back and find the command to update pip.
 
