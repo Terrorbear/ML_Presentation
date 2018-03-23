@@ -1,19 +1,34 @@
-# ML_Presentation
-Introductory presentation on using scikit learn in Jupyter
+# Introduction to Machine Learning
 
-## Prep
+This respository contains code and examples demonstrating several algorithms used in machine learning.
 
-All you need to do is install the scipy stack!
+## Getting Started
 
-Follow the pip installation instructions [here](https://www.scipy.org/install.html).
+These instructions will get you a copy of the Jupyter notebook used for demonstration of the algorithms.
 
-If you don't like reading, run the `pip install --user ...` command found halfway down the page.
-If that doesn't work, go back and find the command to update pip.
+### Prerequisites
 
-## How to open the files.
+To be able to run the code, you need to be able to have python3 and pip installed. To check if you have these installed, you can run these on your command line:
 
-* Open a terminal and navigate to the git repository.
-* Run the command `jupyter notebook`.
-* It'll open a tab in your favorite browser, and from there you'll see a list of directories.
-* Navigate to the file you want to open.
-* Voila! Play around to your heart's content.
+```
+$ python3 --version
+Python 3.6.0
+
+$ pip --version
+pip 9.0.2 from [path]
+```
+
+### Installing
+
+To install all of the packages needed to run the notebook, run the following command.
+
+```
+$ pip install -r requirements.txt
+```
+
+## Running
+
+```
+$ jupyter notebook
+```
+
